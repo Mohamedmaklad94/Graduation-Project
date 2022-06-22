@@ -1,5 +1,5 @@
-create proc GetDeptsForStaff
+alter proc GetDeptsForStaff
 AS
 begin
-	select * from Departments
+	select Dept_ID,Dept_Name from Departments
 end
