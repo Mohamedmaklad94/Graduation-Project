@@ -1,0 +1,30 @@
+1-Students [ST_ID(PK) - Fname - LName - Address- DOB - ST_Pass - Phone - Dept_Id(FK)]
+
+2-Departments [Dept_Id(PK) - Dpet_Name - Dept_Des]
+
+3-Instructors [INS_ID(PK) - INS_Name - INS_Degree - INS_Pass - Dept_Id(FK)]
+
+4-Courses [CRS_ID(PK) - CRS_Name - Topic_ID (FK)]
+
+5-Topics [Topic_ID(PK) - Topic_Name -]
+
+6-Questions [Quest_ID(PK) - Quest_Type - Question_Cont - Model_Answer_Num)- Crs_ID (FK)]
+
+7-Exam [Exam_ID(PK) - Date - CRS_ID(FK)]
+
+8-INS_Crs [{INS_ID(FK) - CRS_ID(FK)}(PK)]
+
+9-ST_Crs [{ST_ID(FK) - CRS_ID(FK)}(PK)]
+
+10-ST_Exam_Quest[{ST_ID(FK) - Exam_ID(FK) - Quest_ID(FK)}(PK) - ST_Answer - Quest_num]
+
+11-ST_Exam_Grade[ {ST_ID(FK) - Exam_ID(FK)}(PK) - Grade]
+
+12- choices [{Quest_ID (FK) - Model_Ans_Num (fk)} (pk) - Ans_Cont)
+
+
+
+=======================================================================================
+
+
+
